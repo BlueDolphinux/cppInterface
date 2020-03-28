@@ -8,7 +8,7 @@ private:
 
 public:
 	Character(string Name) {
-        string  _name = Name;
+        _name = Name;
 	}
 
 	string getName() {
@@ -18,7 +18,9 @@ public:
 
 int main(void) {
     Character character1("slime");
-    cout << "character1: " << character1.getName();
+	Character character2("slimebess");
+    cout << "character1:" << character1.getName() << endl;
+	cout << "character2:" << character2.getName() << endl;
     return 0;
 }
 
