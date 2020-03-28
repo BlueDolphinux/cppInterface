@@ -14,13 +14,13 @@ public:
 	string getName() {
 		return _name;
 	}
-} 
-
-
+}; 
 
 int main(void) {
     Character character1("slime");
     cout << "character1: " << character1.getName();
     return 0;
 }
+
+
 
